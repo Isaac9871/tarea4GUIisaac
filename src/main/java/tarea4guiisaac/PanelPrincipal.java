@@ -36,9 +36,19 @@ public class PanelPrincipal extends JPanel implements ActionListener {
     private boolean realizarDivision = false;
     private boolean realizarMultiplicacion = false;
 
+// Constructor
+    public PanelPrincipal() {
+        initComponents();
+        tipoOperacion = -1; // No hay operaciones en la calculadora
+    }
+ // Se inicializan los componentes gráficos y se colocan en el panel
+    private void initComponents() {
+
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
-      
+
     }
 
 }
